@@ -13,3 +13,15 @@ Based on https://github.com/DURAARK/pyIfcExtract
 ![IfcWallStandardCase anomalies in the duplex apartment model according to their geometrical attributes](images/wall-plot.png "IfcWallStandardCase anomalies in the duplex apartment model according to their geometrical attributes")
 
 ![Ten elements in the duplex model that are misclassified as wall found by anomaly detection](images/wall-render.png "Ten elements in the duplex model that are misclassified as wall found by anomaly detection")
+
+
+## Installation notes 
+
+On windows, i ran the script within a conda virtual environment 
+
+Added requirements in requirements.txt suitable for w64 conda venv
+```
+> conda create --name occtests python==3.8
+> conda activate occtests
+> conda install --file requirements.txt 
+```
