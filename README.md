@@ -25,3 +25,9 @@ Added requirements in requirements.txt suitable for w64 conda venv
 > conda activate occtests
 > conda install --file requirements.txt 
 ```
+
+Chaining all commands on windows and show result immediatly 
+
+```
+python extract_geometrical_descriptors.py files\batiment_01.ifc > output\batiment_01.csv & python classify_geometries.py output\batiment_01.csv & start output\IfcWallStandardCase-anomalies.pdf
+```
